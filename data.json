@@ -1,0 +1,42 @@
+{"familiadeproductos":
+    [    
+    {
+      "id": 1,
+      "name": "Pase de oro",
+      "price": 35910,
+      "image": "https://store.supercell.com/_next/image?url=%2Fimages%2Fclashofclans%2F7dd2d1941fdca5d48dc88c4e49c45746.png&w=640&q=100"
+    },
+    {
+      "id": 2,
+      "name": "Cofre de gemas",
+      "price": 599900,
+      "image": "https://store.supercell.com/_next/image?url=%2Fimages%2Fclashofclans%2F8f0c17c8254eefdfea79bfe3ab22a217.png&w=640&q=100"
+    },
+    {
+      "id": 3,
+      "name": "Caja de gemas",
+      "price": 299900,
+      "image": "https://store.supercell.com/_next/image?url=%2Fimages%2Fclashofclans%2F1acd1c69b84cdfa433eb308c2d79f3d2.png&w=640&q=100"
+    },
+    {
+      "id": 4,
+      "name": "Saco de gemas",
+      "price": 114900,
+      "image": "https://store.supercell.com/_next/image?url=%2Fimages%2Fclashofclans%2F4fb26c699d74dd1fb499bb84a1ee1b24.png&w=640&q=100"
+    },
+    {
+      "id": 5,
+      "name": "Bolsa de gemas",
+      "price": 59900,
+      "image": "https://store.supercell.com/_next/image?url=%2Fimages%2Fclashofclans%2F8d83a876e1c3bf12bae840bce62d21cd.png&w=640&q=100"
+    },
+    {
+      "id": 6,
+      "name": "Pila de gemas",
+      "price": 29900,
+      "image": "https://store.supercell.com/_next/image?url=https%3A%2F%2Fstore.supercell.com%2Fimages%2Fclashofclans%2F0e0240e4682073aa296b32068c926d9a.png&w=640&q=100"
+    }
+  ]
+
+  
+}
