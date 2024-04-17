@@ -1,8 +1,8 @@
 export const cargarInformacion = async () => {
-    const response = await fetch("data.json");
+    const response = await fetch("./data.json"); // 
     const data = await response.json();
     return data;
-  };
+};
 
   /* PASO 2 : Este código en el archivo utils.js define una función llamada cargarInformacion, que utiliza la sintaxis
  de funciones asíncronas (async/await) 

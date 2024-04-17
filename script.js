@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const nombreProducto = document.createElement('p');
         nombreProducto.textContent = producto.name;
-        nombreProducto.classList.add('nombre-producto'); // Agrega la clase para el nombre del producto
+        nombreProducto.classList.add('nombre-producto'); 
 
         const precioProducto = document.createElement('p');
         precioProducto.textContent = `$${producto.price}`;
-        precioProducto.classList.add('precio-producto'); // Agrega la clase para el precio del producto
+        precioProducto.classList.add('precio-producto'); 
 
         const botonAgregar = document.createElement('button');
         botonAgregar.textContent = 'Agregar al Carrito';
