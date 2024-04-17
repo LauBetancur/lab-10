@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const cartCounter = document.getElementById('cart-counter');
     let contadorProductos = 0;
 
-    data.familiadeproductos.forEach(producto => {
+    data.forEach(producto => {
         const productoCard = document.createElement('div');
         productoCard.classList.add('items');
 
