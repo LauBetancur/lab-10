@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const cartCounter = document.getElementById('cart-counter');
     let contadorProductos = 0;
 
-    data.forEach(producto => {
+    data.familiadeproductos.forEach(producto => {
         const productoCard = document.createElement('div');
         productoCard.classList.add('items');
 
@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const nombreProducto = document.createElement('p');
         nombreProducto.textContent = producto.name;
-        nombreProducto.classList.add('nombre-producto');
+        nombreProducto.classList.add('nombre-producto'); // Agrega la clase para el nombre del producto
 
         const precioProducto = document.createElement('p');
         precioProducto.textContent = `$${producto.price}`;
-        precioProducto.classList.add('precio-producto');
+        precioProducto.classList.add('precio-producto'); // Agrega la clase para el precio del producto
 
         const botonAgregar = document.createElement('button');
         botonAgregar.textContent = 'Agregar al Carrito';
@@ -39,3 +39,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         productosContainer.appendChild(productoCard);
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", render);
